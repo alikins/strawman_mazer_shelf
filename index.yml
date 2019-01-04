@@ -1,0 +1,17 @@
+---
+files:
+  - type: collections
+    # could also be .bz etc
+    location: collections.yml
+    size: 2201679
+    # yum uses unix epoch, but iso with tz likely better
+    timestamp: 2018-11-06T18:36:40.738237Z
+    checksum: 8d68381c4cd6681b43bf08f7422d484d628f1a6592528e2bff27368b07aa03b5
+    checksum_type: sha256
+
+# just ideas
+version: 1.0
+revision: 23453
+type: index
+modified-date: 2019-01-03 17:11:21.112188
+token: 234234babcdefbebdgfdb

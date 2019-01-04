@@ -1,0 +1,5 @@
+name: "alikins.collection_reqs_2deep_2"
+version: "1.0.0"
+description: "a collection with one level of requirements (third level)"
+authors: ["Adrian Likins"]
+license: "GPL-3.0-or-later"

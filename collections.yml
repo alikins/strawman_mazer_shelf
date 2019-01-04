@@ -1,0 +1,46 @@
+---
+namespaces:
+  alikins:
+    collections:
+      "collection_reqs_2deep_1":
+        name: "alikins.collection_reqs_2deep_1"
+        version: "1.0.0"
+        description: "a collection with one level of requirements (second level)"
+        authors: ["Adrian Likins"]
+        license: "GPL-3.0-or-later"
+
+      "top_geerlingguy":
+        name: "alikins.top_geerlingguy"
+        version: "0.99.2"
+        description: "The most powerful collection of roles... IN THE WORLD"
+        authors: ["Adrian Likins", "Jeff Geerling"]
+        license: "MIT"
+        dependencies: []
+
+      "collection_reqs_2deep_2":
+        name: "alikins.collection_reqs_2deep_2"
+        version: "1.0.0"
+        description: "a collection with one level of requirements (third level)"
+        authors: ["Adrian Likins"]
+        license: "GPL-3.0-or-later"
+
+      "collection_reqs_2deep_0":
+        name: "alikins.collection_reqs_2deep_0"
+        version: "1.0.0"
+        description: "a collection with two levels of requirements"
+        authors: ["Adrian Likins"]
+        license: "GPL-3.0-or-later"
+
+      "collection_reqs_test":
+        name: "alikins.collection_reqs_test"
+        version: "2.1111.3"
+        description: "a collection with requirements.yml"
+        authors: ["Adrian Likins"]
+        license: "GPL-3.0-or-later"
+        dependencies:
+          - geerlingguy.gitlab
+# just ideas
+version: 1.0
+type: collections
+modified-date: 2019-01-03 17:11:21.112188
+token: 234234babcdefbebdgfdb

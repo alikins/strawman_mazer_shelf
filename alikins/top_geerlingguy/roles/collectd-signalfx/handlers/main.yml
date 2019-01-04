@@ -1,0 +1,4 @@
+---
+- name: restart collectd
+  service: name=collectd state=restarted
+  when: not collectd_role_test_mode

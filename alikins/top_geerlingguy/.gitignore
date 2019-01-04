@@ -1,0 +1,4 @@
+files/logstash-forwarder*
+*.pyc
+*/__pycache__
+*.retry
